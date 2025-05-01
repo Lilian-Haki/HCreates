@@ -3,12 +3,13 @@ import Logo from '../assets/haki_creations_logo.png';
 import { UserOutlined } from '@ant-design/icons';
 import { MenuOutlined, CloseOutlined } from '@ant-design/icons';
 
-
 function Home() {
     const [isOpen, setIsOpen] = React.useState(false);
     const toggleMenu = () => {
         setIsOpen(!isOpen);
     };
+    
+        
     // const closeMenu = () => {
     //     setIsOpen(false);
     // }
@@ -39,7 +40,41 @@ function Home() {
             <UserOutlined />
         </div>
     </nav>
-</div>
+    {/* hero section */}
+    <div className='bg-gray-800'>
+        <p>
+            <img src={Logo} alt="" />
+        </p>
+        <h1 className='mt-[-250px] text-[70px] font-bold text-center'>Haki Creations</h1>
+    </div>
+    {/* about section */}
+    <div className='text-amber-600 p-4'>
+        <h2 className='text-[40px] font-bold text-center'>About Us</h2>
+        <p className='text-[20px] text-center'>We are a team of passionate creators dedicated to bringing your ideas to life.</p>
+        <p className='text-[20px] text-center'>Our mission is to provide high-quality products and services that exceed your expectations.</p>
+    </div>
+    {/* projects section */}
+    <div className='bg-gray-800 text-white p-4'>
+        <h2 className='text-[40px] font-bold text-center'>Our Projects</h2>
+        <p className='text-[20px] text-center'>Check out our latest projects and see what we can do for you.</p>
+        <p className='text-[20px] text-center'>We specialize in web development, graphic design, and more.</p>
+    </div>
+    {/* contact section */}
+    <div className='bg-gray-800 text-white p-4'>
+        <h2 className='text-[40px] font-bold text-center'>Contact Us</h2>
+        <p className='text-[20px] text-center'>Have a question or want to work with us?</p>
+        <p className='text-[20px] text-center'>Get in touch and let's make something amazing together!</p>
+    </div>
+    {/* footer section */}
+    <div className='bg-gray-800 text-white p-4'>
+        <p className='text-center'>© 2023 Haki Creations. All rights reserved.</p>
+        <p className='text-center'>Follow us on social media:</p>
+        <p className='text-center'>Facebook | Twitter | Instagram</p>
+        <p className='text-center'>Privacy Policy | Terms of Service</p>
+        <p className='text-center'>Contact:</p>
+    </div>
+
+    </div>
     )
 }
 export default Home;
