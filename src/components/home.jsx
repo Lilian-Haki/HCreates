@@ -123,14 +123,21 @@ function Home() {
         <h2 className='text-[40px] font-bold text-center'>Contact Us</h2>
         <p className='text-[20px] text-center'>Have a question or want to work with us?</p>
         <p className='text-[20px] text-center'>Get in touch and let's make something amazing together!</p>
+        <form className='flex flex-col items-center'>
+            <input type="text" placeholder="Your Name" className='p-2 mb-4 w-[300px] rounded' />
+            <input type="email" placeholder="Your Email" className='p-2 mb-4 w-[300px] rounded' />
+            <textarea placeholder="Your Message" className='p-2 mb-4 w-[300px] h-[100px] rounded'></textarea>
+            <button type="submit" className='bg-amber-600 text-white p-2 rounded'>Send Message</button>
+        </form>
     </div>
+    {/* contact */}
+
     {/* footer section */}
     <div className='bg-gray-800 text-white p-4'>
         <p className='text-center'>© 2023 Haki Creations. All rights reserved.</p>
         <p className='text-center'>Follow us on social media:</p>
         <p className='text-center'>Facebook | Twitter | Instagram</p>
         <p className='text-center'>Privacy Policy | Terms of Service</p>
-        <p className='text-center'>Contact:</p>
     </div>
 
     </div>
