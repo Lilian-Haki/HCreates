@@ -1,5 +1,11 @@
 import React, { useState } from 'react';
 import Logo from '../assets/haki_creations_logo.png';
+import Project from '../assets/Earthy Essence.png';
+import Mail from '../assets/message.png';
+import Email from '../assets/email.png';
+import Comments from '../assets/comments.png';
+import Contact from '../assets/+.png';
+import { Link } from 'react-router-dom';
 import { UserOutlined } from '@ant-design/icons';
 import { MenuOutlined, CloseOutlined } from '@ant-design/icons';
 
@@ -48,62 +54,42 @@ function Home() {
         <h1 className='mt-[-250px] text-[70px] font-bold text-center'>Haki Creations</h1>
     </div>
     {/* services section */}
-    <div className='text-amber-600 flex md:flex-col p-14 gap-9'>
+    <div className='text-amber-600 p-9 grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 gap-9 items-center'>
         {/* card 1 */}
-    <div class="max-w-sm rounded overflow-hidden shadow-lg">
+    <div class="w-[250px] rounded overflow-hidden shadow-lg">
     <div class="px-6 py-4">
     <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
     <p class="text-gray-700 text-base">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
     </p>
     </div>
-    <div class="px-6 pt-4 pb-2">
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
-   </div>
    </div>
         {/* card 2 */}
-        <div class="max-w-sm rounded overflow-hidden shadow-lg">
+    <div class="w-[250px] rounded overflow-hidden shadow-lg">
     <div class="px-6 py-4">
     <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
     <p class="text-gray-700 text-base">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
     </p>
     </div>
-    <div class="px-6 pt-4 pb-2">
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
-   </div>
    </div>
         {/* card 3 */}
-        <div class="max-w-sm rounded overflow-hidden shadow-lg">
+    <div class="w-[250px] rounded overflow-hidden shadow-lg">
     <div class="px-6 py-4">
     <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
     <p class="text-gray-700 text-base">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
     </p>
     </div>
-    <div class="px-6 pt-4 pb-2">
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
-   </div>
    </div>
         {/* card 4 */}
-        <div class="max-w-sm rounded overflow-hidden shadow-lg">
+    <div class="w-[250px] rounded overflow-hidden shadow-lg">
     <div class="px-6 py-4">
     <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
     <p class="text-gray-700 text-base">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
     </p>
     </div>
-    <div class="px-6 pt-4 pb-2">
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
-   </div>
    </div>
     </div>
      {/* about section */}
@@ -117,18 +103,43 @@ function Home() {
         <h2 className='text-[40px] font-bold text-center'>Our Projects</h2>
         <p className='text-[20px] text-center'>Check out our latest projects and see what we can do for you.</p>
         <p className='text-[20px] text-center'>We specialize in web development, graphic design, and more.</p>
+        <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-4">
+        <div class="...">01
+            <img src={Project} alt="" />
+        </div>
+        <div class="...">02
+            <img src={Project} alt="" />
+        </div>
+        <div class="...">03
+            <img src={Project} alt="" />
+        </div>
+        <div class="...">04
+            <img src={Project} alt="" />
+        </div>
+        <div class="...">05
+            <img src={Project} alt="" />
+        </div>
+        <div class="...">06
+            <img src={Project} alt="" />
+        </div>
+        </div>
     </div>
     {/* contact section */}
-    <div className='bg-gray-800 text-white p-4'>
+    <div className='bg-gray-800 text-white p-4 '>
         <h2 className='text-[40px] font-bold text-center'>Contact Us</h2>
         <p className='text-[20px] text-center'>Have a question or want to work with us?</p>
         <p className='text-[20px] text-center'>Get in touch and let's make something amazing together!</p>
-        <form className='flex flex-col items-center'>
-            <input type="text" placeholder="Your Name" className='p-2 mb-4 w-[300px] rounded' />
-            <input type="email" placeholder="Your Email" className='p-2 mb-4 w-[300px] rounded' />
-            <textarea placeholder="Your Message" className='p-2 mb-4 w-[300px] h-[100px] rounded'></textarea>
-            <button type="submit" className='bg-amber-600 text-white p-2 rounded'>Send Message</button>
+        <div className='flex lg:grid-cols-2 gap-3 items-center'>
+        <div className=''>
+        <img className='ml-16' src={Contact} alt="" />
+        </div>
+        <form className='flex flex-col'>
+            <input type="text" placeholder="Your Name" className='p-2 mb-4 h-14 w-[500px] rounded-[60px]' />
+            <input type="email" placeholder="Your Email" className='p-2 mb-4 h-14 w-[500px] rounded-[60px]' />
+            <textarea placeholder="Your Message" className='p-2 mb-4 w-[500px] h-[100px] rounded-[60px]'></textarea>
+            <button type="submit" className='bg-amber-600 text-white p-2 h-[45px] w-[190px] rounded-[40px]'>Send Message</button>
         </form>
+        </div>
     </div>
     {/* contact */}
 
