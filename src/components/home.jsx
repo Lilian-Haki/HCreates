@@ -98,32 +98,98 @@ function Home() {
         <p className='text-[20px] text-center'>We are a team of passionate creators dedicated to bringing your ideas to life.</p>
         <p className='text-[20px] text-center'>Our mission is to provide high-quality products and services that exceed your expectations.</p>
     </div>
-    {/* projects section */}
-    <div className='bg-gray-800 text-white p-4'>
-        <h2 className='text-[40px] font-bold text-center'>Our Projects</h2>
-        <p className='text-[20px] text-center'>Check out our latest projects and see what we can do for you.</p>
-        <p className='text-[20px] text-center'>We specialize in web development, graphic design, and more.</p>
-        <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-4">
-        <div class="...">01
-            <img src={Project} alt="" />
+    {/* services section */}
+    <section id='services' class="s-services target-section darker">
+
+        <div class="row section-header bit-narrow" data-aos="fade-up">
+            <div class="col-full">
+                <h3 class="subhead">What we do</h3>
+                <h1 class="display-1">
+                We take pride in what we do. Our services are designed to help 
+                your business stand out and turn your ideas into digital realities.
+                </h1>
+            </div>
         </div>
-        <div class="...">02
-            <img src={Project} alt="" />
+
+        <div class="row bit-narrow services block-1-2 block-tab-full">
+
+            <div class="col-block item-service" data-aos="fade-up">
+                <div class="item-service__icon">
+                    <i class="icon-star"></i>
+                </div>
+                <div class="item-service__text">
+                    <h3 class="item-title">Brand Identity</h3>
+                    <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. 
+                    Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
+                    Sunt suscipit voluptas ipsa in tempora esse soluta sint.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-block item-service" data-aos="fade-up">
+                <div class="item-service__icon">
+                    <i class="icon-group"></i>
+                </div>
+                <div class="item-service__text">
+                    <h3 class="item-title">Illustration</h3>
+                    <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. 
+                    Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
+                    Sunt suscipit voluptas ipsa in tempora esse soluta sint.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-block item-service" data-aos="fade-up">
+                <div class="item-service__icon">
+                    <i class="icon-pie-chart"></i>
+                </div>  
+                <div class="item-service__text">
+                    <h3 class="item-title">Marketing</h3>
+                    <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. 
+                    Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
+                    Sunt suscipit voluptas ipsa in tempora esse soluta sint.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-block item-service" data-aos="fade-up">
+                <div class="item-service__icon">
+                    <i class="icon-image"></i>
+                </div>
+                <div class="item-service__text">
+                    <h3 class="item-title">Photography</h3>
+                    <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. 
+                    Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
+                    Sunt suscipit voluptas ipsa in tempora esse soluta sint.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-block item-service" data-aos="fade-up">
+                <div class="item-service__icon">
+                    <i class="icon-cube"></i>
+                </div>
+                <div class="item-service__text">
+                    <h3 class="item-title">UI/UX Design</h3>
+                    <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. 
+                    Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
+                    Sunt suscipit voluptas ipsa in tempora esse soluta sint.
+                    </p>
+                </div>
+            </div>
+    
+            <div class="col-block item-service" data-aos="fade-up">
+                <div class="item-service__icon"><i class="icon-lego-block"></i></div>
+                <div class="item-service__text">
+                    <h3 class="item-title">Frontend Design</h3>
+                    <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. 
+                    Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
+                    Sunt suscipit voluptas ipsa in tempora esse soluta sint.
+                    </p>
+                </div>
+            </div>
         </div>
-        <div class="...">03
-            <img src={Project} alt="" />
-        </div>
-        <div class="...">04
-            <img src={Project} alt="" />
-        </div>
-        <div class="...">05
-            <img src={Project} alt="" />
-        </div>
-        <div class="...">06
-            <img src={Project} alt="" />
-        </div>
-        </div>
-    </div>
+    </section>
     {/* contact section */}
     <div className='bg-gray-800 text-white p-4 '>
         <h2 className='text-[40px] font-bold text-center'>Contact Us</h2>
@@ -131,13 +197,13 @@ function Home() {
         <p className='text-[20px] text-center'>Get in touch and let's make something amazing together!</p>
         <div className='flex lg:grid-cols-2 gap-3 items-center'>
         <div className=''>
-        <img className='ml-16' src={Contact} alt="" />
+        <img className='lg:ml-16' src={Contact} alt="" />
         </div>
-        <form className='flex flex-col'>
-            <input type="text" placeholder="Your Name" className='p-2 mb-4 h-14 w-[500px] rounded-[60px]' />
+        <form className='md:mt-8 flex flex-col'>
+            <input type="text" placeholder="Your Name" className='p-2 mb-4 h-14 lg:w-[500px] md:w-[400px] sm:w-[100px] rounded-[60px]' />
             <input type="email" placeholder="Your Email" className='p-2 mb-4 h-14 w-[500px] rounded-[60px]' />
             <textarea placeholder="Your Message" className='p-2 mb-4 w-[500px] h-[100px] rounded-[60px]'></textarea>
-            <button type="submit" className='bg-amber-600 text-white p-2 h-[45px] w-[190px] rounded-[40px]'>Send Message</button>
+            <button type="submit" className='bg-amber-600 text-white p-2 m-6 h-[45px] w-[190px] rounded-[40px]'>Send Message</button>
         </form>
         </div>
     </div>
