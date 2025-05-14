@@ -99,7 +99,7 @@ function Home() {
         <p className='text-[20px] text-center'>Our mission is to provide high-quality products and services that exceed your expectations.</p>
     </div>
     {/* services section */}
-    <section id='services' class="s-services target-section darker">
+    <section id='services' className="pt-[18rem] pb-[18rem] relative target-section darker">
 
         <div class="row section-header bit-narrow" data-aos="fade-up">
             <div class="col-full">
@@ -111,13 +111,15 @@ function Home() {
             </div>
         </div>
 
-        <div class="row bit-narrow services block-1-2 block-tab-full">
+        <div class="row bit-narrow mt-[9rem] block-1-2 block-tab-full">
 
-            <div class="col-block item-service" data-aos="fade-up">
-                <div class="item-service__icon">
+            <div class="col-block  mb-[.9rem]
+" data-aos="fade-up">
+                <div class="float-left color-#a58a3e font-[4.5rem] mt-[-1.8rem]">
                     <i class="icon-star"></i>
                 </div>
-                <div class="item-service__text">
+                <div class="  ml-[7.2rem]
+ ">
                     <h3 class="item-title">Brand Identity</h3>
                     <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. 
                     Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
