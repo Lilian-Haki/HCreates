@@ -101,26 +101,23 @@ function Home() {
     {/* services section */}
     <section id='services' className="pt-[18rem] pb-[18rem] relative target-section darker">
 
-        <div class="row section-header bit-narrow" data-aos="fade-up">
-            <div class="col-full">
-                <h3 class="subhead">What we do</h3>
-                <h1 class="display-1">
+        <div className="row section-header bit-narrow" data-aos="fade-up">
+            <div className="col-full">
+                <h3 className="subhead">What we do</h3>
+                <h1 className="display-1">
                 We take pride in what we do. Our services are designed to help 
                 your business stand out and turn your ideas into digital realities.
                 </h1>
             </div>
         </div>
 
-        <div class="row bit-narrow mt-[9rem] block-1-2 block-tab-full">
-
-            <div class="col-block  mb-[.9rem]
-" data-aos="fade-up">
-                <div class="float-left color-#a58a3e font-[4.5rem] mt-[-1.8rem]">
-                    <i class="icon-star"></i>
+        <div className="row bit-narrow mt-[9rem] block-1-2 block-tab-full">
+            <div className="col-block  mb-[.9rem]" data-aos="fade-up">
+                <div className="float-left color-#a58a3e font-[4.5rem] mt-[-1.8rem]">
+                    <i className="icon-star"></i>
                 </div>
-                <div class="  ml-[7.2rem]
- ">
-                    <h3 class="item-title">Brand Identity</h3>
+                <div className="ml-[7.2rem]">
+                    <h3 className="item-title">Brand Identity</h3>
                     <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. 
                     Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
                     Sunt suscipit voluptas ipsa in tempora esse soluta sint.
@@ -128,11 +125,11 @@ function Home() {
                 </div>
             </div>
 
-            <div class="col-block item-service" data-aos="fade-up">
-                <div class="item-service__icon">
-                    <i class="icon-group"></i>
+            <div className="col-block  mb-[.9rem]" data-aos="fade-up">
+                <div className="item-service__icon">
+                    <i className="icon-group"></i>
                 </div>
-                <div class="item-service__text">
+                <div className="ml-[7.2rem]">
                     <h3 class="item-title">Illustration</h3>
                     <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. 
                     Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
@@ -141,11 +138,11 @@ function Home() {
                 </div>
             </div>
 
-            <div class="col-block item-service" data-aos="fade-up">
+            <div className="col-block  mb-[.9rem]" data-aos="fade-up">
                 <div class="item-service__icon">
                     <i class="icon-pie-chart"></i>
                 </div>  
-                <div class="item-service__text">
+                <div className="ml-[7.2rem]">
                     <h3 class="item-title">Marketing</h3>
                     <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. 
                     Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
@@ -154,11 +151,11 @@ function Home() {
                 </div>
             </div>
 
-            <div class="col-block item-service" data-aos="fade-up">
+            <div className="col-block  mb-[.9rem]" data-aos="fade-up">
                 <div class="item-service__icon">
                     <i class="icon-image"></i>
                 </div>
-                <div class="item-service__text">
+                <div className="ml-[7.2rem]">
                     <h3 class="item-title">Photography</h3>
                     <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. 
                     Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
@@ -167,11 +164,11 @@ function Home() {
                 </div>
             </div>
 
-            <div class="col-block item-service" data-aos="fade-up">
+            <div className="col-block  mb-[.9rem]" data-aos="fade-up">
                 <div class="item-service__icon">
                     <i class="icon-cube"></i>
                 </div>
-                <div class="item-service__text">
+                <div className="ml-[7.2rem]">
                     <h3 class="item-title">UI/UX Design</h3>
                     <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. 
                     Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
@@ -180,9 +177,9 @@ function Home() {
                 </div>
             </div>
     
-            <div class="col-block item-service" data-aos="fade-up">
+            <div className="col-block  mb-[.9rem]" data-aos="fade-up">
                 <div class="item-service__icon"><i class="icon-lego-block"></i></div>
-                <div class="item-service__text">
+                <div className="ml-[7.2rem]">
                     <h3 class="item-title">Frontend Design</h3>
                     <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. 
                     Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
